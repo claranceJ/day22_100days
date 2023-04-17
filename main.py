@@ -1,9 +1,8 @@
 import random
-
-print("Totally Random one-Million-to-one")
+print("Totally Random one-thousand-to-one")
 print()
 count = 1
-my_number = random.randint(1,100)
+my_number = random.randint(1,1000)
 while True:
     guess = int(input("What is your guess?: "))
     if guess< my_number:
@@ -23,7 +22,7 @@ while True:
         if play!="run":
           break
         else:
-          my_number=random.randint(1,100)
+          my_number=random.randint(1,1000)
           count=1
           continue
 
